@@ -20,4 +20,4 @@ for _ in range(256):
     counts[6] += spawning
     counts[8] = spawning
 
-print(sum(v for v in counts.values()))
+print(sum(counts.values()))
